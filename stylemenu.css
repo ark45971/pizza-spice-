@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(0, 0, 0, .4)url(pizza.jpg)center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.container h1{
+    color: red;
+    margin: 10px;
+    cursor: pointer;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+    transition: 3.5s;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px red inset,0 3px 50px red inset, 0 3px 50px red inset, 0 3px 50px red inset;
+}
+
+
+.navbar .RESERVATION{
+    padding: 8px;
+    background-color: red;
+}
+
+.content{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px red inset,0 3px 50px red inset, 0 3px 50px red inset, 0 3px 50px red inset;
+}
+
+#menu{
+    padding: 25px 0 25px 0;
+}
+
+#section{
+    padding: 25px 0 25px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}   
+
+#row{
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px 0 100px;
+
+}
+#col{
+    box-shadow: 2px 2px 2px #bbb;
+    border: 1px solid #bbb;
+    background-color:rgba(233, 224, 224,.4);
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+#col h2{
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+
+}
+#image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px red;
+}
+#image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
